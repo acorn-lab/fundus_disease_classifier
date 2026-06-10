@@ -1,0 +1,49 @@
+# ----------------------------------------------------------------------------
+# large data and model weights -- too big for github (100 MB per-file limit).
+# keep these local; the README documents how to obtain/regenerate them.
+# note: git does not allow comments on the same line as a pattern, so each
+# ignore rule sits on its own line below.
+# ----------------------------------------------------------------------------
+
+# raw fundus dataset (~858 MB)
+1000images/
+
+# cached paper-style square crops (~137 MB)
+cache_crops/
+
+# RETFound MAE pretrained encoder (~3.7 GB)
+RETFound_cfp_weights.pth
+
+# trained checkpoints and saved predictions (heavy binaries, incl. those in results/)
+*.pth
+*.pt
+*.npz
+*.ckpt
+*.h5
+*.onnx
+
+# ----------------------------------------------------------------------------
+# kept from results/: small figures (.png), tables (.csv), metrics (.json).
+# the *.pth / *.npz rules above already drop the heavy files inside results/.
+# ----------------------------------------------------------------------------
+
+# ----------------------------------------------------------------------------
+# python
+# ----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# ----------------------------------------------------------------------------
+# os / editor junk
+# ----------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

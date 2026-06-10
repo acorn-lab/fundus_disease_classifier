@@ -1,0 +1,6 @@
+model,macro_AUPRC,weighted_AUPRC
+cnn,0.647,0.73
+resnet50,0.972,0.979
+vit,0.874,0.92
+dinov2,0.6,0.672
+retfound,0.884,0.928

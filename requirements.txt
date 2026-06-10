@@ -1,0 +1,22 @@
+# core deep learning
+torch>=2.1
+torchvision>=0.16
+
+# pretrained backbones (resnet, vit, dinov2, retfound vit-l) and HF vit
+timm>=0.9.12
+transformers>=4.38
+
+# data, metrics, plotting
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+matplotlib>=3.7
+seaborn>=0.13
+opencv-python>=4.8
+pillow>=10.0
+
+# explainability (grad-cam in fundus_lib.metrics / notebooks)
+grad-cam>=1.4
+
+# notebooks
+jupyter>=1.0

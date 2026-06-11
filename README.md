@@ -1,6 +1,6 @@
 # Fundus Disease Classifier — Multi-Model Comparison
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<your-username>/fundus-disease-classifier/blob/main/notebooks/00_setup_colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/acorn-lab/fundus_disease_classifier/blob/main/notebooks/00_setup_colab.ipynb)
 
 A reproducible benchmark that trains and compares **five image classifiers** on the
 same fundus-photograph dataset, using one shared pipeline so the AUC/F1 numbers are
@@ -153,7 +153,7 @@ train each model, then `06_results` to produce the comparison figures.
 
 ## Putting this on GitHub — baby steps
 
-You only need to do steps 2–3 once. Replace `<your-username>` with your GitHub
+You only need to do steps 2–3 once. Your repo URL is already filled in below
 username throughout.
 
 ### 1. Make sure git is installed
@@ -168,7 +168,7 @@ If that prints a version you're set. If not, install it (on macOS, running
 ### 2. Create an empty repository on GitHub
 
 1. Go to <https://github.com/new>
-2. **Repository name:** `fundus-disease-classifier` (or anything you like)
+2. **Repository name:** `fundus_disease_classifier` (or anything you like)
 3. Choose **Private** (recommended while it's coursework) or Public
 4. **Do NOT** check "Add a README", "Add .gitignore", or "Add a license" — this repo
    already has them, and adding them on the website would create a conflict
@@ -190,7 +190,7 @@ Then connect to GitHub and push:
 
 ```bash
 # point this repo at your new GitHub repo (use the URL from step 2)
-git remote add origin https://github.com/<your-username>/fundus-disease-classifier.git
+git remote add origin https://github.com/acorn-lab/fundus_disease_classifier.git
 
 # name the main branch and push it, setting it as the default upstream
 git branch -M main
@@ -223,10 +223,10 @@ To download a fresh copy somewhere else:
 
 ```bash
 # 1. clone it
-git clone https://github.com/<your-username>/fundus-disease-classifier.git
+git clone https://github.com/acorn-lab/fundus_disease_classifier.git
 
 # 2. enter the folder
-cd fundus-disease-classifier
+cd fundus_disease_classifier
 
 # 3. create an environment and install dependencies
 python3 -m venv .venv

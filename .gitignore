@@ -8,6 +8,9 @@
 # raw fundus dataset (~858 MB)
 1000images/
 
+# published-paper PDFs (kept locally; see papers/README.md for citations)
+papers/*.pdf
+
 # cached paper-style square crops (~137 MB)
 cache_crops/
 
@@ -47,3 +50,9 @@ env/
 Thumbs.db
 .idea/
 .vscode/
+.Rhistory
+
+# ----------------------------------------------------------------------------
+# claude code per-user settings (the .local.json is meant to be per-user)
+# ----------------------------------------------------------------------------
+.claude/settings.local.json

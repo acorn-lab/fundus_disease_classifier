@@ -6,6 +6,8 @@ A reproducible benchmark that trains and compares **five image classifiers** on 
 same fundus-photograph dataset, using one shared pipeline so the AUC/F1 numbers are
 directly comparable. Built for BMEST580 (Biomedical AI).
 
+Credit to Daisy Herrera Cruz, Ateet Patel, Ronald Zambrano for creation, preparation, and presentation of this project. Special thanks to Dr. Adrian Curtin and Dr. Hasan Ayaz for their guidance.
+
 > **Designed to run on Google Colab** (free GPU). Start with
 > [`notebooks/00_setup_colab.ipynb`](notebooks/00_setup_colab.ipynb), which downloads
 > the dataset and model weights and prepares everything in one pass — see
